@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Page Title</title>
+</head>
+<body>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<div class="simplePopup">hello <div class="simplePopupHtml">hello there</div></div>
+	<div class="simplePopup"><iframe width="560" height="315" src="http://www.youtube.com/embed/XSGBVzeBUbk" frameborder="0" allowfullscreen></iframe></div>
+	<div class="simplePopup">
+		<div id="test" class="simplePopupHtml">hello</div>
+		<div class="simplePopupHtml">class</div>
+	</div>
+	<div class="simplePopup"><div class="simplePopupHtml">hello there</div></div>
+	<script type="text/javascript">
+	$('.simplePopup').simplePopup({
+		speed: 100
+	});
+	</script>
+</body>
+</html>
